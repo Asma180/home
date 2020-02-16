@@ -1,7 +1,23 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
-
+    .menu-area ul li{
+        margin-left: 30px;
+    }
+    .slider-content{
+        padding-left: 30px;
+    }
+    .slider-content h1{
+        font-size: 50px;
+    }
+	.slider-image img{
+        width: 95%;
+    }
+    .promotion-text{
+        padding-left: 50px;
+    }
+    .portfolio-area{
+        padding: 0 100px 80px 100px;
+    }
 }
 
 
