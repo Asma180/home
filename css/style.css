@@ -1122,6 +1122,9 @@ header.transparent-header{
 .testimonial-thumb img{
 	transform: scale(0.7);
 }
+.testimonial-thumb.slick-center > img {
+	transform: scale(01);
+  }
 
 /*expert area start*/
 

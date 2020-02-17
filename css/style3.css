@@ -280,6 +280,9 @@ label {
 	padding: 10px 30px;
 	border-radius: 30px;
 }
+.home3.header-bottom{
+	margin: 0;
+}
 
 
 /*header-botttom-area*/
@@ -318,10 +321,56 @@ label {
 
 
 /*testimonial area start*/
-.home3 .testimonial-item i{
+.home3.testimonial-wrapper i{
 	color: #fbba42;
 	font-size: 36px;
-	margin: 35px 0;
+}
+button.btn-link {
+    font-size: 18px;
+    color: #333333;
+    border: none;
+    font-weight: 600;
+	background: none;
+}
+button.btn-link:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+.card{
+	border-radius: 0;
+	background: none;
+	border: 0
+}
+.card-header{
+	background: none;
+	border: 0;
+	position: relative;
+}
+.our-mission {
+    margin-top: 90px;
+}
+button.btn-link:hover > .btn-link::before {
+	border: none;
+}
+.btn-link::before {
+	position: absolute;
+	content: "-";
+	right: 0;
+	top: 0;
+	border: none;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background: #fbba42;
+}
+.btn-link.collapsed::before {
+	content: "+";
+	border: 1px solid #333333;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	background: none;
 }
 
 /*footer start*/

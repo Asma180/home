@@ -18,6 +18,9 @@
     .portfolio-area{
         padding: 0 100px 80px 100px;
     }
+    .home3.portfolio-area{
+        padding: 0;
+    }
 }
 
 
