@@ -255,7 +255,7 @@ label {
 }
 
 
-
+/*homepage 3 style*/
 
 /*header-top-area*/
 .header-top-area.home3 {
@@ -287,7 +287,7 @@ label {
 
 /*header-botttom-area*/
 .home3.header-bottom{
-	padding: 40px 210px 45px 160px;
+	padding: 30px 210px 40px 160px;
 	background: #ebebeb;
 }
 .info-bar a{
@@ -735,19 +735,4 @@ header.transparent-header{
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #fbba42;
 	color: #414149;
-	cursor: pointer;
-	border-radius: 0;
-	display: inline-block;
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
-	font-weight: 600;
-	line-height: 18px;
-	margin-top: 40px;
-	padding: 15px 35px;
-	text-align: center;
-	text-transform: uppercase;
-	touch-action: manipulation;
-	transition: all 0.3s ease 0s;
-	vertical-align: middle;
-	white-space: nowrap;
 }
